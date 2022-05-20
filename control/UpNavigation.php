@@ -2,11 +2,19 @@
 class UpNavigation{
 
     public function UploadNavigation(){
-        include "view/html/navigation.php";
+        include "model/navigation.php";
     }
 
     public function AboutMe(){
-        include "view/html/AboutMe.php";
+        include "model/AboutMe.php";
+    }
+
+    public function skills(){
+        include "model/skills.php";
+    }
+    
+    public function contact(){
+        include "view/page/contact.php";
     }
 }
 ?>
