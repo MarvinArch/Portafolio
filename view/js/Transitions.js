@@ -18,7 +18,7 @@ function Skills() {
 function Init(){
     document.getElementById('about').style.display = 'none';
     document.getElementById('resume').style.display= 'none';
-    document.getElementById('contacto').style.display = 'none';
+    document.getElementById('contacto').style.display= 'none';
 }
 
 function about(){

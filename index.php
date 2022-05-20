@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="img/ImgPorta.png">
     <title>Portafolio Marvin Archila</title>
-    <link href="view/css/main.css" rel="stylesheet">
-    <link href="view/css/bootstrap.min.css" rel="stylesheet">
     <link href="view/css/normalize.min.css" rel="stylesheet">
+    <link href="view/css/bootstrap.min.css" rel="stylesheet">
+    <link href="view/css/main.css" rel="stylesheet">
     <!--All Link tags -->
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
