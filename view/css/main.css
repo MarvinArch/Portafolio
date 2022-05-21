@@ -746,7 +746,7 @@ span.amp {
   margin-bottom: 0px;
 }
 
-/* Buttons */
+/* Buttons 
 .btn {
   display: inline-block;
   margin: 0 10px 10px 0;
@@ -764,7 +764,7 @@ span.amp {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-}
+}*/
 
 .btn:hover {
   color: #ccc;

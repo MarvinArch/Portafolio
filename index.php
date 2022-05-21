@@ -20,6 +20,7 @@
 
 <body class="bg-fixed bg-1">
 <script src="view/js/Transitions.js"></script>
+<script src="view/js/mensaje.js"></script>
 
   <div class="main-container">
     <div class="main wrapper clearfix">
