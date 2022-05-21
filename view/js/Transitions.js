@@ -2,6 +2,7 @@
 function Skills() {
     Init();
     document.getElementById("resume").style.display= 'block';
+    document.getElementById("resume").innerHTML=document.getElementById("resume").innerHTML;
     let progra=document.getElementsByClassName("meter");
     for (let index = 0; index < progra.length; index++) {
         let porce=document.getElementById('anim'+index);
