@@ -13,10 +13,7 @@
     $con=conectar();
     $lenguajes=mysqli_query($con, $consulta);
 ?>
-    <?php 
-        while ($exist=mysqli_fetch_assoc($lenguajes)) { ?>
-            <div class="meter emerald">
-                <table>
+<table>
                     <tr>
                         <th>Numero</th>
                         <th>Nombre</th>
@@ -24,6 +21,10 @@
                         <th>Telefono</th>
                         <th>Mensaje</th>
                     </tr>
+    <?php 
+        while ($exist=mysqli_fetch_assoc($lenguajes)) { ?>
+            <div class="meter emerald">
+                
                     <tr>
                         <td><?php echo $exist["idcontactos"]; ?></td>
                         <td><?php echo $exist["nombre_Contacto"]; ?></td>
@@ -31,9 +32,10 @@
                         <td><?php echo $exist["tel_contacto"]; ?></td>
                         <td><?php echo $exist["mensaje"]; ?></td>
                     </tr>
-                </table>
+                
                 
             </div>
     <?php } ?>
+    </table>
 </body>
 </html>
