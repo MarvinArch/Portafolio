@@ -11,12 +11,13 @@
                    Full Stack Developer
                 </h4>
                 <p>
-                    Soy estudiante de Ingenieria en sistemas, apasionado por la programacion
-                    Realmente deseo crecer profesionalmente como desarrollador en el 
-                    el mercado laboral, donde me gustaria escapar de mi zona de comfort apostando 
-                    siempre por afrontar nuevo retos. Tengo habilidades suficientes para trabajar 
-                    en ámbitos como el frontend y backend. Aplicando buenas prácticas de desarrollo, 
-                    Clean Code
+                    Soy estudiante de Ingenieria en sistemas, apasionado por la programacion.
+                    Conocimientos FullStack inclinado a desarrolo backend con Java Spring Boot.
+                    Realmente deseo crecer profesionalmente como desarrollador poniendo a prueba 
+                    mis conocimientos en el mercado laboral, donde me gustaria escapar de mi zona 
+                    de confort apostando siempre por afrontar nuevo retos. Considerando Tener habilidades 
+                    suficientes para trabajar en ámbitos como el frontend y backend. Aplicando buenas 
+                    prácticas de desarrollo, Clean Code.
                 </p>
             </div>
     </div>
