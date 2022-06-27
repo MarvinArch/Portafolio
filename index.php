@@ -21,6 +21,21 @@
 <body class="bg-fixed bg-1">
 <script src="view/js/Transitions.js"></script>
 <script src="view/js/mensaje.js"></script>
+<?php
+try {
+  if (!$_COOKIE["visita"]==null) {
+    
+  } else {
+    setcookie("visita", "nuevo Visitante", time()+604800);
+    header("Location: index.php");
+    exit();
+  }
+  
+} catch (\Throwable $th) {
+  header("Location: index.php");
+        exit();
+}
+?>
 
   <div class="main-container">
     <div class="main wrapper clearfix">

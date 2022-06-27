@@ -5,6 +5,8 @@
     $password = $_POST["password"];
     
     if ($nombre==usuario && $password==contra) {
+        session_start();
+        $_SESSION['revision']="true";
         header("Location: ../view/page/admin.php");
         exit();
     }else{
