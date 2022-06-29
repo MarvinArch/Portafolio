@@ -11,13 +11,14 @@
                    Full Stack Developer
                 </h4>
                 <p>
-                    Soy estudiante de Ingenieria en sistemas, apasionado por la programacion.
-                    Conocimientos FullStack inclinado a desarrolo backend con Java Spring Boot.
-                    Realmente deseo crecer profesionalmente como desarrollador poniendo a prueba 
+                    Mi nombre es Marvin Archila. Estudiante de Ingenieria en ciencias y sistemas.
+                    En la Universidad San Carlos de Guatemala.
+                    Conocimientos basicos como FullStack inclinado a desarrolo backend con Java Spring Boot.
+                    Responsable, Eficiente y Comprometido en busca de un puesto como desarrollador. Aspiro a poner a  prueba 
                     mis conocimientos en el mercado laboral, donde me gustaria escapar de mi zona 
                     de confort apostando siempre por afrontar nuevo retos. Considerando Tener habilidades 
                     suficientes para trabajar en ámbitos como el frontend y backend. Aplicando buenas 
-                    prácticas de desarrollo, Clean Code.
+                    prácticas de desarrollo.
                 </p>
             </div>
     </div>
