@@ -16,5 +16,9 @@ class UpNavigation{
     public function contact(){
         include "view/page/contact.php";
     }
+
+    public function projects(){
+        include "model/projects.php";
+    }
 }
 ?>

@@ -22,7 +22,7 @@
           </li>
 
           <li class='tab'>
-            <a href="#portfolio">
+            <a href="javascript:void(0)" onclick="projects()">
               <i class="icon-heart"></i>
               <span>
                 Projectos
