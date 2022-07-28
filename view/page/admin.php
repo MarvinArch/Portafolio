@@ -10,7 +10,7 @@
 <?php
     include("../../config/connection.php");
     session_start();
-    if ($_SESSION['revision']!=null) {
+    if ($_SESSION['revision']=="true") {
         # code...
         $consulta= "SELECT * FROM contactos";
         $con=conectar();
@@ -36,7 +36,6 @@
                 <td><?php echo $exist["mensaje"]; ?></td>
             </tr>
                 
-                
         </div>
     <?php }
     } else {
@@ -44,5 +43,8 @@
         exit();
     } ?>
     </table>
+    <div>
+        <button>Cerrar Sesion</button>
+    </div>
 </body>
 </html>
