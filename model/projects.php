@@ -11,6 +11,7 @@
                 $exist["description_proyect"], $exist["direction_proyect"],
                 $exist["direction_repo"],  $exist["tecnology"], $exist["id_proyect"]];
     }
+    
 ?>
 <section class="clearfix">
     <div class="project-section">
@@ -41,7 +42,20 @@
                         <textarea class="project_description" rows="7" placeholder= "Descripcion del proyecto" readonly><?php echo $dato2[2];?></textarea>
                         <input type="url" value="<?php echo $dato2[3];?>"readonly>
                         <input type="url" value="<?php echo $dato2[4];?>"readonly>
-                        <input type="text" value="<?php echo $dato2[5];?>" readonly>
+                        <div class="container">
+                            <div class="row">
+                                <?php
+                                    $tecnology = explode(',', $dato2[5]);
+                                    foreach ($tecnology as $tecno ) {
+                                ?>
+                                    <div class="col-3 bg-info badge rounded-pill mx-auto mt-2">
+                                        <span class="text-bg-warning"> <?php echo str_replace(" ", "", $tecno);?> </span>
+                                    </div>
+                                <?php
+                                }
+                            ?>
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>
